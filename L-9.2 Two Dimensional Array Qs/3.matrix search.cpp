@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
 
+int main(){
 int  n,m; cin>>n>>m;
 int target; cin>>target;
 int mat[n][m];
@@ -14,7 +14,6 @@ for(int i=0; i<n; i++){
         cin>>mat[i][j];
     }
 }
-
 int r=0, c= m-1;
 bool found=false;
 while(r<n && c>=0){
@@ -23,17 +22,12 @@ while(r<n && c>=0){
 
         found=true;
     }
-
     if(mat[r][c]> target){
-
         c--;
     }else{
-
       r++;
-
     }
 }
-
 if(found){
 
     cout<< "Element found"<<endl;

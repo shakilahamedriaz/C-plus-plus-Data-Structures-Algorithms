@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//function prototype
+// type function name(argument)
+//give below:
+
+//void addition(int ,int); //acceptable
+//void addiction(int a,b); //not acceptable
+//void addiction(int a, int b); //acceptable
+//void g(void);  //acceptable
 
 void addition(int ,int);
 void substraction(int ,int);
@@ -45,6 +53,7 @@ void division(int a,int b)
     int div=a/b;
     cout<< "Division is : "<<div<<endl;
 }
+
 
 
 
